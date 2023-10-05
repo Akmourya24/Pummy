@@ -1,0 +1,262 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #8a36f2;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+
+
+}
+
+ul li {
+  padding: 10PX;
+  margin: 10px;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  margin: -100px 60px 25px 0;
+
+
+}
+h1{
+  color:yellow;
+}
+
+
+main {
+
+  width: 1000px;
+  height: 300px;
+
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 30px;
+}
+
+
+#videoUrl {
+  display: flex;
+margin-top:55px;
+  justify-content: center;
+  width: 450px;
+  height: 35px;
+  border-radius: 5px;
+
+}
+#btn{
+ border-radius: 7px;
+    color: black;
+    padding: 5px;
+    margin-top: 68px;
+}
+
+.trick p1 {
+  margin: 10vh 30vw;
+
+  display: flex;
+  font-size: 40px;
+  font-family: ubbnto;
+
+}
+
+P2 {
+  margin-top: 10px;
+  display: flex;
+  color: black;
+  justify-content: center;
+  font-weight: bold;
+}
+
+p3 {
+  display: flex;
+  color: #8c8c8c;
+}
+
+.video-downloader {
+  text-align: center;
+}
+
+label,
+input,
+button {
+  display: block;
+  margin: 1rem auto;
+}
+
+.download-links {
+  margin-top: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.use-link {
+  display: flex;
+  margin-left: 15vw;
+
+}
+
+.foot {
+  height: 200px;
+
+  background-color: #8a36f2;
+
+
+}
+
+.download-help a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.foot-left {
+
+  margin-left: 30vw;
+  line-height: 1.8;
+}
+
+.foot-center {
+  margin-left: 50vw;
+  margin-top: -10vh;
+  line-height: 1.8;
+}
+
+.foot-right {
+  margin-top: -8vh;
+  margin-left: 68vw;
+  line-height: 1.8;
+}
+
+
+p5 {
+  display: flex;
+  color: #fff;
+  padding: 10px;
+  justify-content: center;
+  margin-left: 10vw;
+   margin-top: 2vh; 
+}
+
+p {
+  width: 40vw;
+  line-height: 1.5;
+  display: flex;
+  margin: 31px 50px 50px 429px;
+  justify-content: center;
+
+
+}
+h2{
+  display: flex;
+  color: gold;
+  margin: 40px;
+  margin-top:-10px;
+
+}
+
+
+.feature span {
+  color: red;
+  display: flex;
+  margin-left: 400px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: ubbnto;
+
+
+}
+
+.list-item {
+  margin-left: 420px;
+}
+
+
+.feature-item {
+  margin-top: -22vh;
+  margin-left: 53vw;
+}
+
+@media only screen and (min-width:360px) {
+  body {
+    background-color: lavender;
+
+  }
+
+  nav {
+    margin: 40px 10px 0px 40px;
+  }
+
+  p1 {
+    display: flex;
+    color: red;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+
+  }
+
+  p2 {
+
+    justify-content: center;
+
+  }
+
+  p3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 0px;
+
+
+  }
+
+  img {
+    margin-left: 20px;
+  }
+
+  main {
+    margin: 20px 20px 20px 40px;
+
+  }
+
+  input {
+    width: 170px;
+  }
+
+
+}
