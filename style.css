@@ -223,15 +223,7 @@ h2{
   
 
   }
-  @media only screen and (width:250px-360px) {
- 
-    ul{
-      margin:30px 30px 40px 50px ;
-  
-    }
-  }
-  
-  
+
 
   p1 {
     display: flex;
