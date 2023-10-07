@@ -217,16 +217,29 @@ h2{
 
   }
 
-  nav {
-    margin: 40px 10px 0px 40px;
+  header {
+  margin:37px -300vw 62px 0px;
+  position: relative;
+  
+
   }
+  @media only screen and (width:250px-360px) {
+ 
+    ul{
+      margin:30px 30px 40px 50px ;
+  
+    }
+  }
+  
+  
 
   p1 {
     display: flex;
     color: red;
     font-size: 30px;
-    margin: 20px;
+    margin: 23px -511px 28px 207px;
     padding: 10px;
+    position: relative;
 
   }
 
@@ -250,13 +263,28 @@ h2{
   }
 
   main {
-    margin: 20px 20px 20px 40px;
+  
+   margin: 23px 34px 25px 73px;
 
   }
 
   input {
     width: 170px;
   }
+  footer{
+    color: red;
+    margin:37px -300vw 62px 0px;
+  }
+  .foot-left{
 
+    margin: -48px 0px 20px 301px;
+  }
+  .foot-center{
+    margin: -90px 9px 21px 700px;
+  }
+  .foot-right{
+    margin: -80px 0px 20px 301vw;
+  }
+ 
 
 }
